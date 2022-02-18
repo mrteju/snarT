@@ -8,7 +8,6 @@ import {Icons} from '../assets/svg';
 import {CommonColor} from '../constance/color';
 import CreatePubScreen from '../screens/CreatePubScreen';
 import HomeScreen from '../screens/HomeScreen';
-import {responsiveHeight} from '../utils/scallingUtils';
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();

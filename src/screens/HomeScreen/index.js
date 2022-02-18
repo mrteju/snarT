@@ -1,12 +1,5 @@
 import React from 'react';
-import {
-  FlatList,
-  Image,
-  ImageBackground,
-  ScrollView,
-  Text,
-  View,
-} from 'react-native';
+import {Image, ImageBackground, ScrollView, Text, View} from 'react-native';
 import {SvgXml} from 'react-native-svg';
 import {Icons} from '../../assets/svg';
 import ComButton from '../../components/ComButton';
@@ -15,11 +8,7 @@ import ProfileView from '../../components/profileView';
 import {CommonColor} from '../../constance/color';
 import {commonStyles} from '../../constance/commonStyles';
 import {STORY_DATA} from '../../constance/dataConst';
-import {
-  responsiveFontSize,
-  responsiveHeight,
-  responsiveWidth,
-} from '../../utils/scallingUtils';
+import {responsiveWidth} from '../../utils/scallingUtils';
 import {styles} from './style';
 
 const HomeScreen = props => {

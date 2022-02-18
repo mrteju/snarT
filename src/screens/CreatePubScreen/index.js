@@ -1,12 +1,10 @@
-import React, {useRef, useState, FC} from 'react';
+import React, {useState} from 'react';
 import {
   Image,
   ImageBackground,
   Pressable,
   ScrollView,
   Text,
-  TextInput,
-  TouchableOpacity,
   View,
 } from 'react-native';
 import {SvgXml} from 'react-native-svg';
@@ -17,15 +15,9 @@ import ProfileView from '../../components/profileView';
 import {CommonColor} from '../../constance/color';
 import {commonStyles} from '../../constance/commonStyles';
 import ImagePicker from 'react-native-image-crop-picker';
-import {
-  responsiveFontSize,
-  responsiveHeight,
-  responsiveWidth,
-} from '../../utils/scallingUtils';
+import {responsiveHeight, responsiveWidth} from '../../utils/scallingUtils';
 import {styles} from './style';
-import {DummyHashTag, DUMMY_IMAGE} from '../../constance/dataConst';
-import SelectDropdown from 'react-native-select-dropdown';
-import {FlatList} from 'react-native-gesture-handler';
+import {DummyHashTag} from '../../constance/dataConst';
 import {MentionInput} from 'react-native-controlled-mentions';
 
 const CreatePubScreen = props => {
@@ -162,20 +154,3 @@ const CreatePubScreen = props => {
 };
 
 export default CreatePubScreen;
-
-{
-  /* <TextInput
-            multiline
-            numberOfLines={img === null ? 20 : 6}
-            style={styles.desText(hasTag)}
-            placeholder="Write here..."
-            placeholderTextColor={CommonColor.PLACEHOLDER}
-            onChangeText={e => {
-              setDescription(e);
-            }}
-            onKeyPress={({nativeEvent}) => {
-              nativeEvent.key === '#' ? setHashTag(true) : setHashTag(false);
-            }}
-            value={description}
-          /> */
-}
