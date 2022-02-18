@@ -5525,11 +5525,6 @@ react-native-image-crop-picker@^0.37.2:
   resolved "https://registry.yarnpkg.com/react-native-image-crop-picker/-/react-native-image-crop-picker-0.37.2.tgz#3aadc4ae4812c9975c49a294d9a17ffae057dbb4"
   integrity sha512-YwZXW21Km8+3tSt0smTaLVgY4398c0/OJcpcH6EP0JDOt1BNNxl/R8m6qdvnwdXdIoa0CCnMVW6TL9IN5ia9OA==
 
-react-native-radial-gradient@^1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/react-native-radial-gradient/-/react-native-radial-gradient-1.0.9.tgz#de18106d4ba491f1ffb5e8bb9e17cb06ce2f4050"
-  integrity sha512-yGib/8t0Da35FYKOSuQf6fB02+OAjN55Dg93eN8ks35NreLHC0M+SZCJRjHlxO3zGE2E+m/90NJy0UZlSboCaQ==
-
 react-native-reanimated@^2.4.1:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-2.4.1.tgz#4e33876fba525ce60ac13ab3c81fc3a9f8b132fe"
@@ -5556,11 +5551,6 @@ react-native-screens@^3.12.0, react-native-screens@^3.4.0:
     react-freeze "^1.0.0"
     react-native-gradle-plugin "^0.0.3"
     warn-once "^0.1.0"
-
-react-native-select-dropdown@^1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/react-native-select-dropdown/-/react-native-select-dropdown-1.8.0.tgz#18f30972244678d1e1e191d166627900bd85ff0d"
-  integrity sha512-Sb2ETrh/cAVPncT0Lq9S+hDmilQ3CfMDo0jgkymPQJ5yBY0TMBfvgNTbiI3/Z/W8CLX/wV81BWOEQb5x2ogJfw==
 
 react-native-svg@^12.1.1:
   version "12.1.1"
