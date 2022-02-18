@@ -1,0 +1,12 @@
+export const CommonColor = {
+  BG_COLOR: '#410550',
+  COMP_BG_COLOR: '#2B0335',
+  PURPLE_BOR: '#9B2EAA',
+  WHITE: '#FFF',
+  ONLINE_DOT: '#00FF00',
+  BTN_BOR: '#FF0080',
+  LIGHT_BLUE: '#00FFFF',
+  PUBLISH_BTN: '#AD9CB5',
+  BLACK: '#000',
+  PLACEHOLDER: '#707070',
+};
